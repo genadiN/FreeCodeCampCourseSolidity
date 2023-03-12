@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "type": "node-terminal",
+      "name": "Run Script: compile",
+      "request": "launch",
+      "command": "yarn run compile",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
