@@ -1,11 +1,11 @@
-import "@nomicfoundation/hardhat-toolbox"
-import "dotenv/config"
-import "@nomiclabs/hardhat-etherscan"
-import "./tasks/block-number"
-import "hardhat-gas-reporter"
-import "solidity-coverage"
-import "@nomiclabs/hardhat-ethers"
-import "@typechain/hardhat"
+require( "@nomicfoundation/hardhat-toolbox")
+require("dotenv/config")
+require("@nomiclabs/hardhat-etherscan")
+require( "./tasks/block-number")
+require( "hardhat-gas-reporter")
+require("solidity-coverage")
+require("@nomiclabs/hardhat-ethers")
+require("@typechain/hardhat")
 /** @type import('hardhat/config').HardhatUserConfig */
 
 
