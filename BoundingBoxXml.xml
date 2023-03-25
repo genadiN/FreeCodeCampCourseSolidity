@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt:MetadataStream xmlns:tt="http://www.onvif.org/ver10/schema">
+  <tt:VideoAnalytics>
+    <tt:Frame UtcTime="2013-10-08T08:40:42.042+02:00">
+      <tt:Object ObjectId="1">
+         <tt:Appearance>
+            <tt:Shape>
+                <tt:BoundingBox bottom="0.25" top="0.75" right="0.55" left="0.05" />
+                <tt:CenterOfGravity x="0" y="0" />
+                <tt:Extension>
+                    <BoundingBoxAppearance>
+                        <Fill color="#e51d5b" />
+                        <Line color="#1de5e4" displayedThicknessInPixels="4" />
+                    </BoundingBoxAppearance>
+                </tt:Extension>
+            </tt:Shape>
+            <tt:Extension>
+                <Description x="0.3" y="0.8" size="0.05" bold="true" italic="true" fontFamily="Helvetica" color="#1de5e4">Metadata BoundingBox</Description>
+            </tt:Extension>
+        </tt:Appearance>
+      </tt:Object>
+    </tt:Frame>
+   </tt:VideoAnalytics>
+</tt:MetadataStream>
